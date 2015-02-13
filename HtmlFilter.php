@@ -6,12 +6,12 @@
  * JavaScript injection.
  *
  *
- * These two functions were copied from Zend Framework: 
+ * The filter() and _filterTag() methods were copied from Zend Framework:
  * https://github.com/zendframework/zf1/blob/master/library/Zend/Filter/StripTags.php
  * and were changed to receive a list of Forbidden tag names
  * and Forbidden attributes.
  *
- * Also the function Filter() will remove the attributes if their value contains
+ * Additional, the filter() method will remove the attributes if their value contains
  * 'javascript:', 'vbscript:' or 'data:'.
  *
  * For more details on XSS, please read here:
